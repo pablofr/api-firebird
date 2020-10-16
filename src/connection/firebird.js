@@ -10,6 +10,16 @@ exports.options = {
     role: null,            // default
     pageSize: 4096         // default when creating database
 };
+// exports.options = {
+//     host: '127.0.0.1',
+//     port: 3050,
+//     database: 'C:/TGA/Dados/TGA.FDB', //"C:/TGA/Dados/TGA.FDB",
+//     user: 'SYSDBA',
+//     password: 'masterkey',
+//     lowercase_keys: false, // set to true to lowercase keys
+//     role: null,            // default
+//     pageSize: 4096         // default when creating database
+// };
 
 // // alternatively, get results using foreach
 // result.forEach(function(row){

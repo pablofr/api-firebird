@@ -6,9 +6,7 @@ const controller = require('../controllers/product-controller');
 const authService = require('../services/auth-service');
 
 router.get('/', controller.get);
-router.get('/slug/:slug', controller.getBySlug);
 router.get('/:id', controller.getById);
-router.get('/tags/:tag', controller.getByTag);
 router.post('/', controller.post);
 router.put('/:id', authService.isAdmin, controller.put);
 router.delete('/', authService.isAdmin, controller.delete);
